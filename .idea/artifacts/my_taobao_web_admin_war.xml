@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="my-taobao-web-admin:war">
+    <output-path>$PROJECT_DIR$/my-taobao-web-admin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>my-taobao-web-admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my-taobao-web-admin-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="my-taobao-web-admin:war exploded" />
+    </root>
+  </artifact>
+</component>
