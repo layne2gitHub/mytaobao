@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>my-taobao-external</module>
         <module>my-taobao-dependencies</module>
         <module>my-taobao-commons</module>
         <module>my-taobao-domain</module>

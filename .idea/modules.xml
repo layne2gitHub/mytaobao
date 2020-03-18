@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/my-taobao-commons/my-taobao-commons.iml" filepath="$PROJECT_DIR$/my-taobao-commons/my-taobao-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-taobao-dependencies/my-taobao-dependencies.iml" filepath="$PROJECT_DIR$/my-taobao-dependencies/my-taobao-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-taobao-domain/my-taobao-domain.iml" filepath="$PROJECT_DIR$/my-taobao-domain/my-taobao-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-taobao-external/my-taobao-external.iml" filepath="$PROJECT_DIR$/my-taobao-external/my-taobao-external.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-taobao-web-admin/my-taobao-web-admin.iml" filepath="$PROJECT_DIR$/my-taobao-web-admin/my-taobao-web-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-taobao-web-api/my-taobao-web-api.iml" filepath="$PROJECT_DIR$/my-taobao-web-api/my-taobao-web-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-taobao-web-ui/my-taobao-web-ui.iml" filepath="$PROJECT_DIR$/my-taobao-web-ui/my-taobao-web-ui.iml" />

@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="my-taobao-web-admin" />
-        <module name="my-taobao-commons" />
         <module name="my-taobao-web-api" />
-        <module name="my-taobao-web-ui" />
+        <module name="my-taobao-commons" />
+        <module name="my-taobao-external" />
         <module name="my-taobao-domain" />
+        <module name="my-taobao-web-ui" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="my-taobao" target="1.8" />
       <module name="my-taobao-commons" target="1.8" />
       <module name="my-taobao-dependencies" target="1.8" />
       <module name="my-taobao-domain" target="1.8" />
+      <module name="my-taobao-external" target="1.8" />
       <module name="my-taobao-web-admin" target="1.8" />
       <module name="my-taobao-web-api" target="1.8" />
       <module name="my-taobao-web-ui" target="1.8" />

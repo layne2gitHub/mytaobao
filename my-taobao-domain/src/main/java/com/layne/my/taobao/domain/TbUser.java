@@ -4,11 +4,13 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.layne.my.taobao.commons.persistnce.BaseEntity;
 import com.layne.my.taobao.commons.utils.RegexpUtils;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.Pattern;
 
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class TbUser extends BaseEntity {
 
     @Length(min = 6, max = 20, message = "用户名长度必须介于 6 和 20 之间")

@@ -19,11 +19,29 @@ public class TbContentController {
     @Autowired
     private TbContentService tbContentService;
 
-    @RequestMapping(value = "{category_id}",method = RequestMethod.GET)
+    /*@RequestMapping(value = "{category_id}",method = RequestMethod.GET)
     public BaseResult findContentByCategoryId(@PathVariable(value = "category_id")Long categoryId ){
         BaseResult baseResult=null;
         List<TbContentDTO> tbContentDTOS=null;
         List<TbContent> tbContents = tbContentService.selectByCategoryId(categoryId);
+        if(tbContents != null && tbContents.size() >0 ){
+            tbContentDTOS=new ArrayList<>();
+            for(TbContent tbContent:tbContents){
+                TbContentDTO tbContentDTO=new TbContentDTO();
+                BeanUtils.copyProperties(tbContent,tbContentDTO);
+                tbContentDTOS.add(tbContentDTO);
+            }
+            baseResult=BaseResult.success("获取传输对象成功",tbContentDTOS);
+        }else {
+            baseResult=BaseResult.fail("获取传输数据失败");
+        }
+        return baseResult;
+    }*/
+    @RequestMapping(value = "ppt",method = RequestMethod.GET)
+    public BaseResult findPPT(){
+        BaseResult baseResult=null;
+        List<TbContentDTO> tbContentDTOS=null;
+        List<TbContent> tbContents = tbContentService.selectByCategoryId(103L);
         if(tbContents != null && tbContents.size() >0 ){
             tbContentDTOS=new ArrayList<>();
             for(TbContent tbContent:tbContents){

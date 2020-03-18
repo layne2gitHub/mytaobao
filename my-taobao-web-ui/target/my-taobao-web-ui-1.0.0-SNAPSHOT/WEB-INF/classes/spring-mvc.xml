@@ -32,4 +32,13 @@
     <!-- 静态资源映射 -->
     <mvc:resources mapping="/static/**" location="/static/" cache-period="31536000"/>
 
+    <!--Interceptor拦截器配置-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/login"/>
+            <mvc:mapping path="/register"/>
+            <bean class="com.layne.my.taobao.web.ui.interceptor.LoginInteceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 </beans>

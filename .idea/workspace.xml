@@ -8,7 +8,97 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18783f86-6cfc-4a5e-89de-55a2d63a77c3" name="Default Changelist" comment="" />
+    <list default="true" id="18783f86-6cfc-4a5e-89de-55a2d63a77c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_kaptcha_kaptcha_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/utils/EmailSendUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-external/my-taobao-external.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-external/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-api/src/main/java/com/layne/my/taobao/web/api/dao/TbUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-api/src/main/java/com/layne/my/taobao/web/api/service/TbUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-api/src/main/java/com/layne/my/taobao/web/api/service/impl/TbUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-api/src/main/java/com/layne/my/taobao/web/api/web/controller/v1/TbUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-api/src/main/java/com/layne/my/taobao/web/api/web/dto/TbUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-api/src/main/resources/mapper/TbUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/api/UsersApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/constant/SystemConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/controller/KaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/dto/TbUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/interceptor/LoginInteceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/spring-context-email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/spring-context-kaptcha.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_taobao_web_admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_taobao_web_admin_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_taobao_web_api_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_taobao_web_api_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_taobao_web_ui_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_taobao_web_ui_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my-taobao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-taobao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/my-taobao-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/my-taobao-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/constant/ConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/constant/ConstantUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/dto/BaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/dto/BaseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/dto/PageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/dto/PageInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/persistnce/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/persistnce/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/persistnce/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/persistnce/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/persistnce/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/persistnce/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/persistnce/BaseTreeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/persistnce/BaseTreeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/persistnce/BaseTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/persistnce/BaseTreeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/persistnce/BaseTreeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/persistnce/BaseTreeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/persistnce/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/persistnce/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/utils/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/utils/HttpClientUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/utils/MapperUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/utils/MapperUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/utils/RegexpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/utils/RegexpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-commons/src/mian/java/com/layne/my/taobao/commons/validator/BeanValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-commons/src/main/java/com/layne/my/taobao/commons/validator/BeanValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-dependencies/my-taobao-dependencies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-dependencies/my-taobao-dependencies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-domain/my-taobao-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-domain/my-taobao-domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-domain/src/main/java/com/layne/my/taobao/domain/TbContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-domain/src/main/java/com/layne/my/taobao/domain/TbContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-domain/src/main/java/com/layne/my/taobao/domain/TbContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-domain/src/main/java/com/layne/my/taobao/domain/TbContentCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-domain/src/main/java/com/layne/my/taobao/domain/TbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-domain/src/main/java/com/layne/my/taobao/domain/TbUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/my-taobao-web-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-admin/my-taobao-web-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/src/main/java/com/layne/my/taobao/web/admin/web/controller/ContentCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-admin/src/main/java/com/layne/my/taobao/web/admin/web/controller/ContentCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/2626abc7-3e69-4591-888f-3ca04893290btimg (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/37d588fd-4d38-445d-a5d0-c4f0d4d65d3e987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/44a5a36a-5c29-4483-8720-127a3728c0cabanner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/48d6f7f9-c59b-4666-b15d-556cd984c52etimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/54df09a9-6d1a-4cbb-a353-064596a4bec0123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/5fa533af-9add-4655-a148-31dc68577fe8banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/6311280a-a0db-4bbf-a9a3-b28ea3568dca123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/84f66562-d888-4132-8822-64ced662db9fbanner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/bec48d14-3b0a-4275-880a-2112206ac8a9banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/cf429c32-cdd2-4d59-b071-1bb2b08dcc52banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/dd9a4a72-67c3-49d4-8715-3d648b96edaa123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-admin/target/my-taobao-web-admin-1.0.0-SNAPSHOT/static/upload/dfbb23e7-2544-4424-83f2-069b7be46cc3timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-api/my-taobao-web-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-api/my-taobao-web-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-api/src/main/java/com/layne/my/taobao/web/api/web/controller/v1/TbContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-api/src/main/java/com/layne/my/taobao/web/api/web/controller/v1/TbContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-api/target/my-taobao-web-api-1.0.0-SNAPSHOT/WEB-INF/classes/META-INF/my-taobao-web-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/my-taobao-web-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/my-taobao-web-ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/api/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/api/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/api/ContentsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/api/ContentsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/java/com/layne/my/taobao/web/ui/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/myshop.properties" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/myshop.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/classes/META-INF/my-taobao-web-ui.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/classes/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/target/classes/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/classes/META-INF/my-taobao-web-ui.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-taobao-web-ui/target/my-taobao-web-ui-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mytaobao/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mytaobao/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +132,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/my-taobao-web-ui/src/main/webapp/WEB-INF/views/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -75,14 +168,23 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
   <component name="ProjectId" id="1X1OvM2KRljq7sgQY4p2zOQ3WVv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-taobao-web-ui/src/main/webapp/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test/hello-email" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,30 +192,33 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-ui\src\main\webapp\static" />
-      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-ui\src\main\resources" />
-      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-api\src\main\resources\mapper" />
-      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-api\src\main\resources" />
-      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-admin\src\main\webapp\static\assets\plugins\wangEditor" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.layne.my.taobao.web.api.web.dto" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-ui\src\main\webapp" />
       <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-admin\src\main\resouces" />
       <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-admin\src\main" />
       <recent name="E:\LayenWorkSpace2020\test\my-taobao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LayenWorkSpace2020\Git\mytaobao\my-taobao-external\libs" />
+      <recent name="E:\LayenWorkSpace2020\Git\mytaobao\my-taobao-web-api\src\main\resources\mapper" />
+      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-ui\src\main\webapp\static" />
+      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-ui\src\main\resources" />
+      <recent name="E:\LayenWorkSpace2020\test\my-taobao\my-taobao-web-api\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.layne.my.taobao.web.api.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.layne.my.taobao.web.api.web.dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -487,11 +592,29 @@
       <workItem from="1584195167638" duration="2252000" />
       <workItem from="1584199034055" duration="27980000" />
       <workItem from="1584454670019" duration="658000" />
+      <workItem from="1584494615114" duration="25428000" />
+      <workItem from="1584598807763" duration="535000" />
+      <workItem from="1584599456421" duration="9029000" />
+      <workItem from="1584608697436" duration="3895000" />
+      <workItem from="1584625975996" duration="8473000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_taobao$my_taobao_admin.ic" NAME="my-taobao-admin Coverage Results" MODIFIED="1581233678424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

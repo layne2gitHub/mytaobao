@@ -13,7 +13,7 @@ public class ContentsApi {
 
 
     public static List<TbContent> ppt() {
-        String result = HttpClientUtils.doGet(API.API_CONTENTS+103);
+        String result = HttpClientUtils.doGet(API.API_CONTENTS);
         List<TbContent> tbContents=null;
         try {
             tbContents = MapperUtils.json2listByTree(result, "data", TbContent.class);

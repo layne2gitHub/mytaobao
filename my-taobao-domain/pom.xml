@@ -18,12 +18,7 @@
         <dependency>
             <groupId>com.layne</groupId>
             <artifactId>my-taobao-commons</artifactId>
-            <version>${parent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.layne</groupId>
-            <artifactId>my-taobao-commons</artifactId>
-            <version>${parent.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
 

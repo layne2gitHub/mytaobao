@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -40,25 +41,32 @@
                     </div>
                 </div>
             </div>
-            <div class="kengl_kuang">
-                <div class="txt_kuang">
-                    <input type="text" class="itxt"  placeholder="邮箱/用户名/已验证手机">
-                    <input type="text" class="itxt"  placeholder="密码">
-                </div>
-                <div class="remember">
-                    <div class="fl">
-                        <input type="checkbox" >
-                        <label >自动登录</label>
+            <c:if test="${baseResult!=null}">
+                <div class="red" >${baseResult.message}</div>
+            </c:if>
+            <form action="/login" method="post">
+                <div class="kengl_kuang">
+                    <div class="txt_kuang">
+                        <input type="text" class="itxt"  name="username" placeholder="邮箱/用户名/已验证手机">
+                        <input type="password" class="itxt" name="password" placeholder="密码">
+                        <input type="text" class="itxt" id="verification"  name="verification" placeholder="验证码" style="width: 119px;">
+                        <img  id="validateCode" src="/verification" style="float: right;padding-right: 23px;"  title="看不清？换一张" />
                     </div>
-                    <div class="fr">
-                        <a href="#" class="fl" target="_blank" title="忘记密码">忘记密码?</a>
+                    <div class="remember">
+                        <div class="fl">
+                            <input type="checkbox" >
+                            <label >自动登录</label>
+                        </div>
+                        <div class="fr">
+                            <a href="#" class="fl" target="_blank" title="忘记密码">忘记密码?</a>
+                        </div>
                     </div>
+                    <input type="submit" tabindex="5" value="登 录" class="btnnuw">
                 </div>
-                <input type="button" tabindex="5" value="登 录" class="btnnuw">
-            </div>
+            </form>
             <div class="corp_login">
                 <div class="mingb_shoq"><a href="#">名榜授权登录！</a></div>
-                <div class="regist_link"><a href="zhuc.html" target="_blank"><b></b>立即注册</a></div>
+                <div class="regist_link"><a href="/register" target="_blank"><b></b>立即注册</a></div>
             </div>
         </div>
     </div>
@@ -70,5 +78,15 @@
         <p class="gonga_bei">京公网安备：123456789号</p>
     </div>
 </div>
+<script type="text/javascript" src="/static/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        // 刷新验证码
+        $("#validateCode").bind("click", function () {
+            $(this).hide().attr('src', '/verification?random=' + Math.random()).fadeIn();
+        });
+    });
+
+</script>
 </body>
 </html>

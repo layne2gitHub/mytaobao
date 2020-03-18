@@ -4,7 +4,6 @@ import com.layne.my.taobao.commons.dto.BaseResult;
 import com.layne.my.taobao.domain.TbContentCategory;
 import com.layne.my.taobao.web.admin.abstracts.AbstractBaseTreeController;
 import com.layne.my.taobao.web.admin.service.TbContentCategoryService;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

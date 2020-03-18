@@ -88,6 +88,22 @@
             <artifactId>httpmime</artifactId>
         </dependency>
         <!-- Apache Http End -->
+        <!--google kaptcha Begin-->
+        <dependency>
+            <groupId>com.google.code.kaptcha</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jhlabs</groupId>
+            <artifactId>filters</artifactId>
+        </dependency>
+        <!--google kaptcha end-->
+        <!--commons-email Begin-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-email</artifactId>
+        </dependency>
+        <!--commons-email end-->
 
         <dependency>
             <groupId>org.hibernate</groupId>
